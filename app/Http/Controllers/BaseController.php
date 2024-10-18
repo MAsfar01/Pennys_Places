@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 class BaseController extends Controller
 {
+//help in creating a response
     protected function SuccessResponse($message, $statusCode)
         {
             return response()->json([
